@@ -1,0 +1,37 @@
+body {
+  font: normal 1em Arial;
+  background-color: rgb(62, 82, 165);
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  max-height: 350px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.317);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#img {
+  width: 250px;
+  height: 250px;
+}
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+}

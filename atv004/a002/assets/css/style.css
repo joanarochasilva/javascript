@@ -1,0 +1,29 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+main {
+  width: 97vw;
+  height: 97vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+  border-radius: 10px;
+}
+
+
+#button {
+  margin-top: 20px;
+}

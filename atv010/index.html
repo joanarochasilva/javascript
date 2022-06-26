@@ -4,16 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modelo do Site</title>
+  <title>Verificador de Idade</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Modelo de Site</h1>
+    <h1>Verificador de Idade</h1>
   </header>
   <section>
-    <div>Cagando...</div>
-    <div></div>
+    <p>Ano de Nascimento: 
+      <input type="number" name="anoNascimento" id="txtano" min="0"></p>
+    <p>
+      <!--name tem que ser diferente entre os inputs radio para que apenas um possa ser marcado-->
+        Sexo: 
+        <input type="radio" name="radsex" id="MAS_CHECK">
+        <label for="MAS_CHECK">Masculino</label>
+        <input type="radio" name="radsex" id="FEM_CHECK"> 
+        <label for="FEM_CHECK">Feminino</label>
+    </p>
+    <input type="button" value="Verificar" id="btn">
+    <div id="resultado">
+      <p id="res">Preencha os dados acima para ver o resultado!</p>
+      <div id="img"></div>
+    </div>
   </section>
   <footer>
     <p><a href="#">&copy; CursoemVídeo</a></p>

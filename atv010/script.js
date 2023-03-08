@@ -15,7 +15,7 @@ function verificar() {
     var genero = ""
     //Cria uma tag img a partir do Javascript
     // var img = document.creatElement("img")
-    // //Cria um id = "foto" na tag criada acima
+    //Cria um id = "foto" na tag criada acima
     // img.setAttribute("id", "foto") 
 
     var imagem = document.getElementById("img")
